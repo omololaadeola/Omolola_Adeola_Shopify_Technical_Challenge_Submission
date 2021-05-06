@@ -51,7 +51,7 @@ print("%.2f" % AOV)
 # Print correct explanation with $
 '${:,.2f}'.format(AOV)
 
-# Incorrect calculation explained as a mistaken count() instead of sum() function
+# Incorrect because count() was used instead of sum() function
 oa_sum = data_df['order_amount'].sum()
 ti_count = data_df['total_items'].count()
 AOV = oa_sum/ti_count
@@ -61,17 +61,4 @@ print(AOV)
 
 # This is a sample Python script.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
